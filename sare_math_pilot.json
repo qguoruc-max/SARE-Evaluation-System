@@ -1,0 +1,30 @@
+{
+  "schema_version": "SARE-Math-1.0",
+  "evaluation_epoch": "2026-08-07",
+  "rubric_version": "1.0",
+  "central_weights": {"I": 15, "C": 20, "M": 20, "H": 35, "R": 5, "E": 5},
+  "weight_bounds": {
+    "I": [12, 18], "C": [16, 24], "M": [16, 24],
+    "H": [30, 40], "R": [4, 6], "E": [4, 6]
+  },
+  "weight_constraints": {"sum": 100, "C_plus_M_min": 35},
+  "robust_margin": 1.0,
+  "score_uncertainty": {"I": 0.03, "C": 0.03, "M": 0.03, "H": 0.03, "R": 0.03, "E": 0.03},
+  "papers": [
+    {"id":"P01","short_title":"SNLW controlled paths","arxiv":"2607.07618","V":95.8,"A":0.12,"A_unc":0.030,"scores":{"I":0.961,"C":0.965,"M":1.000,"H":0.993,"R":0.854,"E":0.855}},
+    {"id":"P02","short_title":"KdV localized perturbations","arxiv":"2607.08401","V":92.7,"A":0.16,"A_unc":0.030,"scores":{"I":0.918,"C":0.927,"M":0.977,"H":1.000,"R":0.857,"E":0.812}},
+    {"id":"P03","short_title":"Lusztig special pieces","arxiv":"2607.15406","V":95.0,"A":0.18,"A_unc":0.036,"scores":{"I":0.952,"C":1.000,"M":0.955,"H":0.998,"R":0.851,"E":0.805}},
+    {"id":"P04","short_title":"Subgroups of Thompson V","arxiv":"2608.02111","V":91.4,"A":0.18,"A_unc":0.036,"scores":{"I":0.924,"C":0.982,"M":0.882,"H":0.994,"R":0.810,"E":0.859}},
+    {"id":"P05","short_title":"Cautis--Logvinenko","arxiv":"2607.25982","V":85.6,"A":0.24,"A_unc":0.042,"scores":{"I":0.874,"C":0.884,"M":0.834,"H":0.999,"R":0.811,"E":0.815}},
+    {"id":"P06","short_title":"Nine-distance theorem","arxiv":"2608.01443","V":86.6,"A":0.28,"A_unc":0.048,"scores":{"I":0.868,"C":0.832,"M":0.932,"H":1.000,"R":0.812,"E":0.774}},
+    {"id":"P07","short_title":"Odd-cycle span defect","arxiv":"2608.00691","V":79.6,"A":0.34,"A_unc":0.048,"scores":{"I":0.774,"C":0.737,"M":0.887,"H":1.000,"R":0.766,"E":0.774}},
+    {"id":"P08","short_title":"Fuglede in dimension two","arxiv":"2607.15632","V":84.3,"A":0.42,"A_unc":0.072,"scores":{"I":0.995,"C":0.812,"M":0.762,"H":0.996,"R":0.829,"E":0.782}},
+    {"id":"P09","short_title":"Duncan counterexample","arxiv":"2607.25118","V":71.1,"A":0.43,"A_unc":0.060,"scores":{"I":0.723,"C":0.689,"M":0.689,"H":0.997,"R":0.775,"E":0.787}},
+    {"id":"P10","short_title":"Perfect 1-factorisation","arxiv":"2607.09459","V":77.1,"A":0.47,"A_unc":0.030,"scores":{"I":0.780,"C":0.757,"M":0.757,"H":1.000,"R":0.795,"E":0.845}},
+    {"id":"P11","short_title":"Zero-mass counterexample","arxiv":"2607.26549","V":78.2,"A":0.50,"A_unc":0.036,"scores":{"I":0.853,"C":0.823,"M":0.673,"H":1.000,"R":0.790,"E":0.818}},
+    {"id":"P12","short_title":"Charpin counterexamples","arxiv":"2607.28741","V":70.0,"A":0.50,"A_unc":0.060,"scores":{"I":0.693,"C":0.659,"M":0.709,"H":1.000,"R":0.783,"E":0.762}},
+    {"id":"P13","short_title":"Nine-line Jacobian relation","arxiv":"2607.01985","V":58.8,"A":0.68,"A_unc":0.048,"scores":{"I":0.598,"C":0.560,"M":0.510,"H":0.975,"R":0.761,"E":0.831}},
+    {"id":"P14","short_title":"Feige conjecture","arxiv":"2607.24528","V":65.2,"A":0.75,"A_unc":0.024,"scores":{"I":0.752,"C":0.568,"M":0.568,"H":1.000,"R":0.813,"E":0.837}},
+    {"id":"P15","short_title":"Batyrev counterexample","arxiv":"2607.19184","V":58.2,"A":0.88,"A_unc":0.018,"scores":{"I":0.704,"C":0.463,"M":0.463,"H":0.846,"R":0.850,"E":0.862}}
+  ]
+}

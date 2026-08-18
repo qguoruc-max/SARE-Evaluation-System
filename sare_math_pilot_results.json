@@ -1,0 +1,201 @@
+{
+  "evaluation_epoch": "2026-08-07",
+  "packet_hash": "6f21ba326e7dfd7ebf879bbc491bbcab7576baa800f68fb3e33696cb5698bd04",
+  "robust_edges": 77,
+  "rows": [
+    {
+      "A": 0.12,
+      "S_human": 86.3986,
+      "S_max": 90.62492,
+      "S_min": 80.937,
+      "V": 95.79,
+      "arxiv": "2607.07618",
+      "id": "P01",
+      "tier": 1,
+      "title": "SNLW controlled paths"
+    },
+    {
+      "A": 0.16,
+      "S_human": 81.299,
+      "S_max": 85.84856,
+      "S_min": 75.73312,
+      "V": 92.7,
+      "arxiv": "2607.08401",
+      "id": "P02",
+      "tier": 1,
+      "title": "KdV localized perturbations"
+    },
+    {
+      "A": 0.18,
+      "S_human": 80.6942,
+      "S_max": 85.275664,
+      "S_min": 74.770752,
+      "V": 94.985,
+      "arxiv": "2607.15406",
+      "id": "P03",
+      "tier": 1,
+      "title": "Lusztig special pieces"
+    },
+    {
+      "A": 0.18,
+      "S_human": 78.8076,
+      "S_max": 84.05624,
+      "S_min": 72.684,
+      "V": 91.415,
+      "arxiv": "2608.02111",
+      "id": "P04",
+      "tier": 1,
+      "title": "Subgroups of Thompson V"
+    },
+    {
+      "A": 0.24,
+      "S_human": 70.7806,
+      "S_max": 76.64350400000001,
+      "S_min": 64.162084,
+      "V": 85.575,
+      "arxiv": "2607.25982",
+      "id": "P05",
+      "tier": 2,
+      "title": "Cautis--Logvinenko"
+    },
+    {
+      "A": 0.28,
+      "S_human": 67.906,
+      "S_max": 74.240544,
+      "S_min": 60.85318399999999,
+      "V": 86.61,
+      "arxiv": "2608.01443",
+      "id": "P06",
+      "tier": 2,
+      "title": "Nine-distance theorem"
+    },
+    {
+      "A": 0.34,
+      "S_human": 59.8994,
+      "S_max": 66.42408,
+      "S_min": 52.7992,
+      "V": 79.6,
+      "arxiv": "2608.00691",
+      "id": "P07",
+      "tier": 2,
+      "title": "Odd-cycle span defect"
+    },
+    {
+      "A": 0.42,
+      "S_human": 55.1887,
+      "S_max": 63.274840000000005,
+      "S_min": 46.247608,
+      "V": 84.295,
+      "arxiv": "2607.15632",
+      "id": "P08",
+      "tier": 3,
+      "title": "Fuglede in dimension two"
+    },
+    {
+      "A": 0.43,
+      "S_human": 49.591,
+      "S_max": 56.95302,
+      "S_min": 41.88344,
+      "V": 71.1,
+      "arxiv": "2607.25118",
+      "id": "P09",
+      "tier": 3,
+      "title": "Duncan counterexample"
+    },
+    {
+      "A": 0.47,
+      "S_human": 48.9994,
+      "S_max": 53.922000000000004,
+      "S_min": 43.568,
+      "V": 77.095,
+      "arxiv": "2607.09459",
+      "id": "P10",
+      "tier": 3,
+      "title": "Perfect 1-factorisation"
+    },
+    {
+      "A": 0.5,
+      "S_human": 46.8975,
+      "S_max": 52.316624000000004,
+      "S_min": 41.031904,
+      "V": 78.195,
+      "arxiv": "2607.26549",
+      "id": "P11",
+      "tier": 3,
+      "title": "Zero-mass counterexample"
+    },
+    {
+      "A": 0.5,
+      "S_human": 44.1025,
+      "S_max": 51.3388,
+      "S_min": 36.612399999999994,
+      "V": 70.005,
+      "arxiv": "2607.28741",
+      "id": "P12",
+      "tier": 3,
+      "title": "Charpin counterexamples"
+    },
+    {
+      "A": 0.68,
+      "S_human": 28.5984,
+      "S_max": 34.941152,
+      "S_min": 22.595423999999994,
+      "V": 58.815,
+      "arxiv": "2607.01985",
+      "id": "P13",
+      "tier": 4,
+      "title": "Nine-line Jacobian relation"
+    },
+    {
+      "A": 0.75,
+      "S_human": 25.5,
+      "S_max": 29.740304000000002,
+      "S_min": 21.057231999999996,
+      "V": 65.195,
+      "arxiv": "2607.24528",
+      "id": "P14",
+      "tier": 4,
+      "title": "Feige conjecture"
+    },
+    {
+      "A": 0.88,
+      "S_human": 15.6028,
+      "S_max": 19.165506,
+      "S_min": 12.187399999999998,
+      "V": 58.19,
+      "arxiv": "2607.19184",
+      "id": "P15",
+      "tier": 5,
+      "title": "Batyrev counterexample"
+    }
+  ],
+  "schema_version": "SARE-Math-1.0",
+  "tiers": [
+    [
+      "P01",
+      "P02",
+      "P03",
+      "P04"
+    ],
+    [
+      "P05",
+      "P06",
+      "P07"
+    ],
+    [
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12"
+    ],
+    [
+      "P13",
+      "P14"
+    ],
+    [
+      "P15"
+    ]
+  ],
+  "weight_vertices": 50
+}

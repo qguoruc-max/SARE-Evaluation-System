@@ -1,0 +1,56 @@
+{
+  "AI_1x1": {
+    "max_rank_move_q90": 9.0,
+    "mean_A_MAE": 0.14048777777777777,
+    "mean_kendall_tau": 0.6242539682539683,
+    "tau_median": 0.6380952380952382,
+    "tau_q10": 0.4666666666666667,
+    "tau_q90": 0.7714285714285715,
+    "top4_exact_rate": 0.14333333333333334
+  },
+  "AI_3x9": {
+    "max_rank_move_q90": 3.0,
+    "mean_A_MAE": 0.04764,
+    "mean_kendall_tau": 0.8871746031746034,
+    "tau_median": 0.8857142857142857,
+    "tau_q10": 0.8285714285714286,
+    "tau_q90": 0.9428571428571428,
+    "top4_exact_rate": 0.7833333333333333
+  },
+  "AI_5x18": {
+    "max_rank_move_q90": 3.0,
+    "mean_A_MAE": 0.02851929824561404,
+    "mean_kendall_tau": 0.9284444444444447,
+    "tau_median": 0.9238095238095239,
+    "tau_q10": 0.8857142857142857,
+    "tau_q90": 0.961904761904762,
+    "top4_exact_rate": 0.9666666666666667
+  },
+  "combined": {
+    "max_rank_move_q90": 3.0,
+    "mean_A_MAE": 0.029433684210526324,
+    "mean_kendall_tau": 0.9276190476190478,
+    "tau_median": 0.9238095238095239,
+    "tau_q10": 0.8857142857142857,
+    "tau_q90": 0.961904761904762,
+    "top4_exact_rate": 0.9433333333333334
+  },
+  "raters_only": {
+    "max_rank_move_q90": 1.0,
+    "mean_A_MAE": 0.0,
+    "mean_kendall_tau": 0.9831746031746033,
+    "tau_median": 0.980952380952381,
+    "tau_q10": 0.961904761904762,
+    "tau_q90": 1.0,
+    "top4_exact_rate": 1.0
+  },
+  "weights_only": {
+    "max_rank_move_q90": 0.0,
+    "mean_A_MAE": 0.0,
+    "mean_kendall_tau": 1.0,
+    "tau_median": 1.0,
+    "tau_q10": 1.0,
+    "tau_q90": 1.0,
+    "top4_exact_rate": 1.0
+  }
+}
